@@ -111,7 +111,7 @@ if(NOT _site_packages )
 endif()
 
 # show the PYTHON_LIBRARY_DIR
-message(STATUS "PYTHON_LIBARAY_DIR = ${PYTHON_LIBRARY_DIR}")
+message(STATUS "PYTHON_LIBRARY_DIR = ${PYTHON_LIBRARY_DIR}")
 message(STATUS "_site_package      = ${_site_packages}")
 
 install(TARGETS ${PROJECT_NAME} 
